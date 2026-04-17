@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#f4f8f1] text-[#173a2b] antialiased;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+
+  a,
+  button {
+    @apply transition;
+  }
+}
+
+@theme {
+  --font-head: "Sora", "sans-serif";
+  --font-text: "Outfit", "sans-serif";
+}
